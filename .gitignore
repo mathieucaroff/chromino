@@ -1,0 +1,9 @@
+/*/
+!/src/
+
+/.*
+!/.gitignore
+!/.prettierrc*
+!/.yarnrc.yml
+!/.editorconfig
+node_modules/

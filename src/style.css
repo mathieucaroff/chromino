@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table.grid {
+  display: flex;
+  justify-content: center;
+}
+
+table.grid td {
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+}
+
+.grid .empty {
+  background-color: white;
+  border: none;
+}
