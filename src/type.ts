@@ -9,6 +9,9 @@ export interface Config {
   randomEngine: random.Engine
   victoryCondition: "onePlayer" | "allPlayers"
   slow: boolean
+  theme: string[]
+  squareSize: number
+  borderStyle: string
 }
 
 export type RenderGrid = RenderRow[]
